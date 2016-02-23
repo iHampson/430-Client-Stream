@@ -1,0 +1,19 @@
+{
+  "name": "client-streaming",
+  "version": "1.0.0",
+  "description": "Stream data from one client to another",
+  "main": "./server/server.js",
+  "scripts": {
+    "test": "jshint ./server/ && jshint ./client/client.js",
+    "start": "node ./server/server.js"
+  },
+  "author": "Ian Hampson",
+  "license": "ISC",
+  "devDependencies": {
+    "jshint": "^2.9.1"
+  },
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  }
+}
